@@ -1,3 +1,5 @@
+package org.example;
+
 /* This file was mostly just used to collect all the information on names, number of apperances for the character,
 and their URL for their page.*/
 
