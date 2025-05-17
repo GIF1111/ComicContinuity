@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  color: #1F5772;
+  font-size: 130px;
+}
+    .section1 {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .parallax-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 130vh;
+      object-fit: cover;
+      z-index: -1;
+      transform: translateY(0);
+      will-change: transform;
+    }
+
+    .textWrap {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+    }
+
+    .textWrap .title {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    .section2, .section3 {
+      height: 100vh;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+    }
+
+      /*
+  padding-top: 86px; 
+  height: 91vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;*/
+
+  /*.backImg {
+  /*position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  */
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%; /* slightly taller for smoother scroll */
+  /*object-fit: cover;
+  z-index: -1;
+  transform: translateY(0px);
+  transition: transform 0.1s ease-out;
+}*/

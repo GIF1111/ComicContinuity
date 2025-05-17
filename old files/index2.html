@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Parallax Test</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
+    .section1 {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .parallax-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 130vh;
+      object-fit: cover;
+      z-index: -1;
+      transform: translateY(0);
+      will-change: transform;
+    }
+
+    .textWrap {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+    }
+
+    .textWrap .title {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    .section2, .section3 {
+      height: 100vh;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="section1">
+    <img src="https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1500&q=80" class="parallax-img">
+    <div class="textWrap">
+      <div class="title">COMIC CONTINUITY</div>
+      <div class="quote">"Such a brave face you wear..."</div>
+    </div>
+  </section>
+
+  <section class="section2">
+    Section 2 Content
+  </section>
+
+  <section class="section3">
+    Section 3 Content
+  </section>
+  <script src=script.js></script>
+</body>
+</html>

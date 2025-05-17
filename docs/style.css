@@ -11,13 +11,14 @@
   background: #FCD755;
   color: #1C1714;
   width: 100%;
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  z-index: 10;
 }
 
 /*  Header logo  */
 .titleHead {
-  padding-left: 1%;
+  padding-left: 6%;
   float: left;
 }
 b {
@@ -33,12 +34,12 @@ b {
 .listHead {
   float: right;
   display: inline;
-  padding-right: 1%;
+  padding-right: 8%;
   text-align: center;
 }
 li {
   display: inline;
-  
+  margin-left: 50px;
 }
 a {
   color: #1C1714;
@@ -46,4 +47,54 @@ a {
   font-size: 17px;
   font-family: Helvetica;
   letter-spacing: 2px;
+}
+
+/* Section 1 */
+.section1 {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130vh;
+  object-fit: cover;
+  z-index: -1;
+  transform: translateY(0);
+  will-change: transform;
+}
+.textWrap {
+  position: relative;
+  z-index: 1;
+  color: #1F5772;
+  text-align: center;
+}
+.title {
+  color: #1F5772;
+  font-size: 130px;
+}
+.quote {
+  font-family: Helvetica;
+}
+
+/* Section 2 */
+.section2 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section 3 */
+.section3 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
