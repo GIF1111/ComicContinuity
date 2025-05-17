@@ -45,7 +45,8 @@ a {
   color: #1C1714;
   text-decoration: none;
   font-size: 17px;
-  font-family: Helvetica;
+  font-weight: 400;
+  font-family: "Nunito";
   letter-spacing: 2px;
 }
 
@@ -63,7 +64,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 130vh;
+  height: 110vh;
   object-fit: cover;
   z-index: -1;
   transform: translateY(0);
@@ -73,14 +74,31 @@ a {
   position: relative;
   z-index: 1;
   color: #1F5772;
+  align-items: center;
   text-align: center;
 }
 .title {
+  text-shadow: 0px 0px 5px #FFFFFF;
   color: #1F5772;
   font-size: 130px;
 }
 .quote {
-  font-family: Helvetica;
+  text-shadow: 0px 0px 5px #FFFFFF;
+  color: #1C1714;
+  font-style: italic;
+  font-weight: 500;
+  font-family: "Nunito";
+}
+button {
+  padding: 20px;
+  text-align: center;
+  color: #FCD755;
+  background-color: #0073A6;
+  border: 2px #FCD755;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  font-weight: 300;
+  font-family: "Nunito";
 }
 
 /* Section 2 */

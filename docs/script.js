@@ -10,9 +10,3 @@ window.addEventListener('scroll', () => {
     image.style.transform = `translateY(${offset * speed}px)`;
 });
 console.log("script running");
-//window.addEventListener('scroll', function() {
-//    const parallax = document.querySelector('.backImg');
-//    let scrollPosition = window.pageYOffset;
-
-//    parallax.style.transform = 'translateY(' + scrollPosition * .6 + 'px)';
-//}); 
