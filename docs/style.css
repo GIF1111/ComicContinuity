@@ -74,7 +74,6 @@ a {
   position: relative;
   bottom: 8vh;
   z-index: 1;
-  color: #1F5772;
   align-items: center;
   text-align: center;
 }
@@ -84,7 +83,6 @@ a {
   font-size: 130px;
 }
 .quote {
-  text-shadow: 0px 0px 5px #FFFFFF;
   color: #1C1714;
   font-style: italic;
   font-weight: 500;
@@ -98,7 +96,6 @@ h3 {
   background-color: rgba(0,116,166,0.6);
 	border-radius: 28px;
 	border: 3px solid #fcd855;
-	display: inline-block;
 	cursor: pointer;
 	color: #fcd855;
 	padding: 16px 31px;
@@ -111,7 +108,6 @@ h3 {
 	background-color: #1F5772;
 	border-radius: 28px;
 	border: 1px solid #F3DE84;
-	display:inline-block;
 	cursor:pointer;
 	color:#F3DE84;
 }
@@ -125,7 +121,7 @@ h3 {
 /* Section 2 */
 .section2 {
   background-color: #FCD755;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +129,36 @@ h3 {
 
 /* Section 3 */
 .section3 {
-  height: 100vh;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cataImg {
+  position: absolute;
+  top: 180vh;
+  left: 0;
+  width: 100%;
+  height: 130vh;
+  object-fit: cover;
+  z-index: -2;
+  transform: translateY(0);
+  will-change: transform;
+}
+h4 {
+  display: inline;
+  position: absolute;
+  top: 245vh;
+}
+.cata {
+  font-size: 50px;
+  color: #FDF5E2;
+}
+
+/* Section 4 */
+.section4 {
+  background-color: #FCD755;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
