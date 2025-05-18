@@ -72,6 +72,7 @@ a {
 }
 .textWrap {
   position: relative;
+  bottom: 8vh;
   z-index: 1;
   color: #1F5772;
   align-items: center;
@@ -89,16 +90,36 @@ a {
   font-weight: 500;
   font-family: "Nunito";
 }
-button {
-  padding: 20px;
-  text-align: center;
-  color: #FCD755;
-  background-color: #0073A6;
-  border: 2px #FCD755;
+h3 {
+  position: absolute;
+  top: 78vh;
+}
+.btn1 {
+  background-color: rgba(0,116,166,0.6);
+	border-radius: 28px;
+	border: 3px solid #fcd855;
+	display: inline-block;
+	cursor: pointer;
+	color: #fcd855;
+	padding: 16px 31px;
+	text-decoration: none;
   letter-spacing: 2px;
-  border-radius: 20px;
   font-weight: 300;
   font-family: "Nunito";
+}
+.btn1:hover {
+	background-color: #1F5772;
+	border-radius: 28px;
+	border: 1px solid #F3DE84;
+	display:inline-block;
+	cursor:pointer;
+	color:#F3DE84;
+}
+.btn1:active {
+  background-color: #F3DE84;
+  border-radius: 28px;
+	border: 1px solid #F3DE84;
+  color: #0074a6;
 }
 
 /* Section 2 */
