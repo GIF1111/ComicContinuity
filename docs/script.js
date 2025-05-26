@@ -21,3 +21,15 @@ window.addEventListener('scroll', () => {
     const offset = scrollY - sectionTop;
     image1.style.transform = `translateY(${offset * speed}px)`;
 });//<h4><a href="catalogue.html" class="btn1">CATALOGUE</a></h4>
+// Activate Carousel
+$("#myCarousel").carousel();
+
+// Enable Carousel Indicators
+$(".item").click(function(){
+  $("#myCarousel").carousel(1);
+});
+
+// Enable Carousel Controls
+$(".left").click(function(){
+  $("#myCarousel").carousel("prev");
+});
